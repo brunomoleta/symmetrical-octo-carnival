@@ -1,0 +1,87 @@
+main,
+header {
+  width: 100%;
+}
+
+#app {
+  min-width: 16rem;
+  width: 100%;
+  max-width: 45.5rem;
+  padding-inline: var(--app-padding-inline);
+}
+
+.container {
+  margin: 0;
+  width: 100%;
+  box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.2);
+}
+
+article.container {
+  padding-inline: var(--s0);
+  padding-block: var(--s2);
+}
+
+.user-input,
+.container {
+  border-radius: var(--border-radius-large);
+}
+#search-user {
+  border-radius: var(--border-radius-large);
+}
+
+#form {
+  width: 100%;
+}
+
+.card {
+  margin: 0;
+}
+
+.card-user-info {
+  margin: 0;
+}
+
+.data-list {
+  border: none;
+}
+
+.card-user-data {
+  margin: 0;
+  border-radius: var(--border-radius-small);
+  background-color: var(--light-100);
+  padding-block: var(--s0);
+}
+
+.card-user-location {
+  margin: 0;
+}
+
+#app {
+  width: 100%;
+  max-width: var(--app-max-width);
+}
+
+.user-avatar {
+  width: var(--s4);
+  height: var(--s4);
+  border-radius: var(--s4);
+}
+
+@media (min-width: 550px) {
+  .user-avatar {
+    width: var(--s5);
+    height: var(--s5);
+    border-radius: var(--s5);
+  }
+
+  article.container {
+    padding-inline: var(--s2);
+  }
+}
+@media (min-width: 900px) {
+  .card-user-data,
+  .card-user-location {
+    width: 78%;
+    align-self: flex-end;
+  }
+}

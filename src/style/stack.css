@@ -1,0 +1,28 @@
+
+.stack-large > * + * {
+    margin-block-start: var(--s1);
+  }
+
+  .stack-medium > * + * {
+    margin-block-start: var(--s0);
+  }
+  
+  .stack-normal > * + * {
+    margin-block-start: var(--s-2);
+  }
+  
+  .stack-small > * + * {
+    margin-block-start: var(--s-2);
+  }
+  
+  @media (min-width:550px) {
+    .stack-large > * + * {
+      margin-block-start: var(--s2);
+    }
+    .stack-medium > * + * {
+      margin-block-start: var(--s1);
+    }
+    .stack-normal > * + * {
+      margin-block-start: var(--s-1);
+    }
+  }

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style/style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./src/assets/favicon-32x32.png"
+    />
+    <meta
+      name="description"
+      content="Solution to a frontendmentor Challenge
+with the goal to exercise HTML and CSS skills"
+    />
+    <meta name="keywords" content="HTML, CSS, Javascript" />
+    <meta name="author" content="Bruno Moleta" />
+
+    <title>Devfinder - Find Devfriends</title>
+  </head>
+  <body class="flex justify-content-center align-items-center">
+    <div
+      id="app"
+      class="flex column align-items-center justify-center stack-large"
+    >
+      <header class="flex space-between align-items-center">
+        <h1 class="sr-only highlighted">Find a developer through devfinder!</h1>
+        <h2 class="brand">devfinder</h2>
+        <button class="button flex align-items-center button-gap" id="toggle-theme"></button>
+      </header>
+      <main class="stack-large">
+        <section class="container">
+          <form id="form" class="relative stack-small"  action="">
+            <label class="search-label" for="search-user">Search Gihub username:</label>
+            <div  class="user-input relative grid grid-display">
+
+              <input
+              type="text"
+              id="search-user"
+              required
+              />
+              <input
+              id="form-submit"
+              class="button input-btn"
+              type="submit"
+              value="Search"
+              />
+            </div>
+          </form>
+        </section>
+      </main>
+    </div>
+    <script type="module" src="/src/scripts/index.js"></script>
+  </body>
+</html>

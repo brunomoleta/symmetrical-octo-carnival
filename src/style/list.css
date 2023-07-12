@@ -1,0 +1,7 @@
+ul.stack-normal > li {
+    gap: var(--s-1);
+  }
+  
+  .icon {
+    width: 1rem;
+  }

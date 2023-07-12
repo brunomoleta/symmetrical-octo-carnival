@@ -1,0 +1,67 @@
+body {
+    font-family: var(--primary-font);
+  }
+  
+  .highlighted {
+    margin: 0;
+  }
+  
+  .info-username,
+  .brand,
+  .highlighted,
+  .button,
+  #form-submit {
+    font-weight: var(--font-weight-bold);
+  }
+  
+  .button {
+    letter-spacing: 0.16rem;
+    color: var(--button-color);
+    font-size: var(--font-normal);
+  }
+  
+  #form-submit {
+    color: var(--light-200);
+  }
+  
+  .brand {
+    font-size: var(--font-bigger);
+    line-height: var(--line-height-bigger);
+  }
+  
+  em {
+    font-weight: 600;
+  }
+  
+  #form-submit,
+  .search-label,
+  .container,
+  .repos-item {
+    font-size: var(--font-normal);
+  }
+  
+  @media (min-width: 550px) {
+    .info-username,
+    .highlighted {
+      font-size: var(--font-big);
+      line-height: var(--line-height-big);
+    }
+  
+    .info-at-user {
+      font-size: var(--font-medium);
+      line-height: var(--line-height-medium);
+    }
+  
+    .info-bio {
+      font-size: var(--font-body);
+      line-height: var(--line-height-body);
+    }
+    .card-user-location,
+    #form-submit,
+    #form,
+    .search-label,
+    .button, .info-datetime, #invalid-input {
+      font-size: var(--font-medium);
+    }
+  }
+  

@@ -1,0 +1,40 @@
+body {
+    background-color: var(--body-bg-color);
+    color: var(--body-color);
+    transition: background-color 300ms;
+  }
+  
+  .user-input, article {
+    background-color: var(--container-bg-color);
+  }
+  
+  /* text */
+  
+  .info-at-user {
+    color: var(--primary-color);
+  }
+  
+  
+  .not-available {
+      color: var(--not-available-color);
+  }
+  
+  .not-available>.icon {
+    fill: var(--not-available-color)
+  }
+  
+  .available, .repos-item {
+    color: var(--available-color);
+  }
+  
+  .available>.icon {
+    fill: var(--available-color);
+  }
+  
+  
+  
+  .card-user-data{
+      background-color: var(--card-data-bg);
+  }
+  
+  

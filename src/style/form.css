@@ -1,0 +1,27 @@
+#invalid-input {
+    right: calc(var(--s4) * 1.1);
+    top: 48%;
+  }
+  
+  #search-user {
+    outline: var(--border-thickness) transparent;
+    transition: outline 300ms;
+  }
+  
+  #search-user:focus {
+    outline: var(--border-thickness) var(--primary-color);
+  }
+  
+  #invalid-input {
+    color: var(--red);
+    margin-block: var(--s-3);
+    padding-inline: var(--s0);
+    padding-block-end: var(--s-3);
+  }
+  
+  @media (min-width: 900px) {
+    #search-user {
+      padding-inline-start: var(--s2);
+    }
+  }
+  

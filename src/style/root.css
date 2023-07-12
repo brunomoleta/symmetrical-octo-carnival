@@ -1,0 +1,102 @@
+:root {
+    --ratio: 1.5;
+    --s-5: calc(var(--s-4) / var(--ratio));
+    --s-4: calc(var(--s-3) / var(--ratio));
+    --s-3: calc(var(--s-2) / var(--ratio));
+    --s-2: calc(var(--s-1) / var(--ratio));
+    --s-1: calc(var(--s0) / var(--ratio));
+    --s0: 1rem;
+    --s1: calc(var(--s0) * var(--ratio));
+    --s2: calc(var(--s1) * var(--ratio));
+    --s3: calc(var(--s2) * var(--ratio));
+    --s4: calc(var(--s3) * var(--ratio));
+    --s5: calc(var(--s4) * var(--ratio));
+  
+    --measure: 60ch;
+  
+    /* light-mode-colors */
+    --primary-color: #0079ff;
+    --primary-color-hover: #60ABFF;
+    --grey-100: #697c9a;
+    --grey-100: #697c9a;
+    --grey-200: #4b6a9b;
+    --grey-300: #2b3442;
+    --light-100: #f6f8ff;
+    --light-200: #fefefe;
+    --red: #f74646;
+    --light-grey-100: #a3b3cb;
+    
+    
+    /* dark-mode-colors */
+    --dark-grey-100: #141d2f;
+    --dark-grey-200: #1e2a47;
+    --dark-grey-300: #8b93a3;
+    
+    --light-hover: #222731;
+    --dark-hover:#90A4D4;
+  
+    /* Fonts */
+  
+    --primary-font: "Space Mono", monospace;
+  
+    --font-weight-bold: 700;
+    --font-weight-normal: 400;
+  
+    --font-bigger: 1.625rem;
+    --font-big: 1.375rem;
+    --font-medium: 1rem;
+    --font-normal: 0.8rem;
+  
+    --line-height-bigger: 2.375rem;
+    --line-height-big: 2rem;
+    --line-height-medium: 1.5rem;
+    --line-height-bigger: 1.25rem;
+  
+    --font-body: 0.92rem;
+    --line-height-body: 1.55rem;
+  
+    /* ... */
+  
+    --border-radius-large: 1rem;
+    --border-radius-small: 0.5rem;
+  
+    --border-thickness: 1.5px solid;
+  
+    --body-bg-color: var(--light-100);
+  
+    --container-bg-color: var(--light-200);
+    --card-data-bg: var(--light-100);
+  
+    --app-padding-inline: 1.25rem;
+  
+    --body-color: var(--grey-300);
+    --button-color: var(--grey-200);
+    --icon-color: var(--grey-200);
+  
+    --border-radius-large: var(--s0);
+    --border-radius-small: var(--s-1);
+  
+    
+    --available-color: var(--grey-200);
+    --not-available-color: var(--light-grey-100);
+  
+    --theme-hover: var(--light-hover);
+  
+    --app-max-width: 47rem;
+  }
+  
+  .dark-mode:root {
+    --body-bg-color: var(--dark-grey-100);
+    
+    --container-bg-color: var(--dark-grey-200);
+    --card-data-bg: var(--dark-grey-100);
+    
+    --body-color: var(--light-200);
+    --button-color: var(--light-200);
+    
+    --available-color: var(--light-200);
+    
+    --not-available-color: var(--dark-grey-300);
+    --theme-hover: var(--dark-hover);
+    
+  }

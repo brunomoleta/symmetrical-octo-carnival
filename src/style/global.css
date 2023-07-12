@@ -1,0 +1,10 @@
+.everything {
+    margin-block: var(--s2);
+}
+
+@media (min-width: 550px) {
+    .everything {
+
+        margin-block: 0;
+    }
+}
